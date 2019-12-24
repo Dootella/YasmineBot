@@ -8,7 +8,7 @@ class Fun(commands.Cog):
         self.client = client
     
     @commands.command()
-    async def greet(self, ctx, *, question):
+    async def greet(self, ctx):
         responses = [
                 ":smiley: :wave: Hello, there!",
                 ":kissing_heart: Hey cutie!",
