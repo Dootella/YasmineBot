@@ -1,0 +1,1 @@
+This folder is used for media related stuff such as; pictures, songs, videos and more.
