@@ -2,7 +2,6 @@ import discord
 import os
 from discord.ext import commands
 
-Client = discord.Client()
 TOKEN = open("token.txt", "r").readline()
 client = commands.Bot(command_prefix = 'y!')
 client.remove_command('help')
